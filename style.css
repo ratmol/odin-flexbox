@@ -2,7 +2,7 @@
     background-color: white;
     color: #3882f6;
     font-size: 32px;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
 }
 
 .content{
@@ -10,7 +10,7 @@
     color:white;
     display: flex;
     flex-direction:column;
-    align-items: left;
+    align-items: flex-start;
     padding-top: 10px;
     padding-bottom: 10px;
     white-space: nowrap;
@@ -19,19 +19,26 @@
 
 .text1{
     font-size:26px;
+    margin-bottom: 20px;
 }
 
 .text2{
     font-size:26px;
+    margin-bottom: 20px;
 }
 
 .text3{
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
+.text4{
+    margin-bottom: 20px;
+}
 .text5{
     font-size:24px;
+    
 }
 
 .bottom{
@@ -39,18 +46,20 @@
     display: flex;
     flex-direction: column;
     gap:0px;
-     padding-top: 10px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .text6{
     color:#3882f6;
     font-size:24px;
+    margin-bottom: 20px;
 }
 
 .text7{
     font-size: 36px;
     font-weight: 900;
+    margin-bottom: 0px;
 }
 
 .footer{
@@ -64,6 +73,7 @@
 .text8{
     font-size: 22px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .text9{
@@ -72,5 +82,9 @@
 }
 
 p{
-    margin: 0 4px;
+    margin: 0;
+}
+
+body{
+    margin:0;
 }
