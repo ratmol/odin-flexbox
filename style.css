@@ -1,90 +1,48 @@
 .header{
-    background-color: white;
-    color: #3882f6;
-    font-size: 32px;
-    padding-bottom: 10px;
-}
-
-.content{
-    background-color:#1F2937;
-    color:white;
-    display: flex;
-    flex-direction:column;
-    align-items: flex-start;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    white-space: nowrap;
-    
-}
-
-.text1{
-    font-size:26px;
-    margin-bottom: 20px;
-}
-
-.text2{
-    font-size:26px;
-    margin-bottom: 20px;
-}
-
-.text3{
-    font-size: 48px;
-    font-weight: 900;
-    margin-bottom: 10px;
-}
-
-.text4{
-    margin-bottom: 20px;
-}
-.text5{
-    font-size:24px;
-    
-}
-
-.bottom{
-    background-color:white;
+    background-color: #1F2937;
+    color: white;
     display: flex;
     flex-direction: column;
-    gap:0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
-.text6{
-    color:#3882f6;
+.logo{
     font-size:24px;
-    margin-bottom: 20px;
+    color:#F9FAF8;
 }
 
-.text7{
-    font-size: 36px;
-    font-weight: 900;
-    margin-bottom: 0px;
-}
-
-.footer{
-    background-color: lightgray;
+.header-links{
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    flex-direction: row-reverse;
+    gap: 20px;
+    align-items: center;
+    color:#E5E7EB;
 }
 
-.text8{
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 20px;
+.text-header{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight: 900;
 }
 
-.text9{
-    font-size:36px;
-    font-weight: 300;
+.mini-header{
+    font-size:18px;
+    color:#E5E7EB;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.header-button{
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border:none;
 }
 
 p{
-    margin: 0;
+    margin:0;
 }
 
 body{
-    margin:0;
+    margin:0
 }
