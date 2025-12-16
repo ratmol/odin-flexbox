@@ -3,6 +3,8 @@
     color: white;
     display: flex;
     flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .logo{
@@ -10,19 +12,26 @@
     color:#F9FAF8;
 }
 
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+}
 .header-links{
     list-style: none;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     gap: 20px;
     align-items: center;
     color:#E5E7EB;
 }
 
 .text-header{
-    font-size:48px;
+    font-size:38px;
     color:#F9FAF8;
     font-weight: 900;
+    gap:20px;
 }
 
 .mini-header{
@@ -30,7 +39,14 @@
     color:#E5E7EB;
     display: flex;
     flex-direction: row;
+    gap:20px;
+}
 
+.header-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;;
 }
 
 .header-button{
@@ -44,6 +60,7 @@
     height: 150px;
     border:2px black;
     background-color: grey;
+    align-self: end;
 }
 
 .info-section{
