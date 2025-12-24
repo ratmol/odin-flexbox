@@ -111,6 +111,40 @@ a{
     align-items: center;
 }
 
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.quote-text{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    padding:100px;
+    padding-top:50px;
+    padding-bottom:0px;    
+}
+
+.quote-author{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-left: 200px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.sign-up-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 
 p{
     margin:0;
