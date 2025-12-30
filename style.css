@@ -63,7 +63,8 @@ a{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content: left;
+    align-items: flex-start;
 }
 
 .header-image{
@@ -126,7 +127,8 @@ a{
     font-weight: 100;
     padding:100px;
     padding-top:50px;
-    padding-bottom:0px;    
+    padding-bottom:0px;  
+    font-style: italic;  
 }
 
 .quote-author{
@@ -144,6 +146,28 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+    padding: 50px solid blue;
+    margin-bottom: 20px;
+}
+
+.sign-up-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.sign-up-button{
+
+}
+
+.footer{
+    background-color:#1F2937 ;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
 }
 
 p{
