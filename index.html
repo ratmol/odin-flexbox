@@ -10,35 +10,46 @@
     <div class ="header">
         <div class ="header-top">
          <p class="logo">Header Logo</p>
-          <li class ="header-links">
-            <a href="#">header link one</a>
-            <a href="#">header link two</a>
-            <a href="#">header link three</a>
-          </li>
+          <ul class ="header-links">
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+          </ul>
         </div>
 
         <div class ="header-main">
-          <p class ="text-header">This website is awesome.</p>
+          <div class ="header-content">  
+            <p class ="text-header">This website is awesome.</p>
             <p class ="mini-header">this website has some subtext that goes here under the main title. It's a smaller font and 
             the color is lower contrast.
-          </p>
-          <button class="header-button">Sign up</button>
-          <img class="header-image" src="" alt="This is a placeholder for an image">
-    
+            </p>
+            <button class="header-button">Sign up</button>
+          </div>
+          <div class="header-image">This is a placeholder for an image</div>
         </div>
     </div>
+
+
     <div class = "info-section">
         <h2 class ="title">Some random information</h2>
-        <li class ="pics">
-            <img class ="image-1" src="" alt="">
-             <div class ="caption1">This is some subtext under an illustration or image </div>
-            <img class ="image-2" src="" alt="">
-             <div class ="caption2">This is some subtext under an illustration or image </div>
-            <img class ="image-3" src="" alt="">
-             <div class ="caption3">This is some subtext under an illustration or image </div>
-            <img class ="image-4" src="" alt="">
-             <div class ="caption4">This is some subtext under an illustration or image </div>
-        </li>
+        <div class="pics">
+         <div class="pic-item">
+                <div class="image-box"></div>
+                <div class="caption">this is some subtext under an illustration or image</div>
+         </div>
+         <div class="pic-item">
+                <div class="image-box"></div>
+                <div class="caption">this is some subtext under an illustration or image</div>
+         </div>
+         <div class="pic-item">
+                <div class="image-box"></div>
+                <div class="caption">this is some subtext under an illustration or image</div>
+         </div>
+         <div class="pic-item">
+                <div class="image-box"></div>
+                <div class="caption">this is some subtext under an illustration or image</div>
+         </div>
+        </div>
     </div>
 
     <div class ="quote-section">
@@ -49,13 +60,17 @@
     </div>
 
     <div class ="sign-up-section">
-        <h2 class ="sign-up-text">Call to action! It's time!</h2>
-        <h4 class ="sign-up-subtext">Sign up for our product by clicking that button right over there!</h4>
-        <button class ="sign-up-button">Sign up</button>
+        <div class ="sign-up-box">
+            <div class="sign-up-content">
+              <h2 class ="sign-up-text">Call to action! It's time!</h2>
+              <p class ="sign-up-subtext">Sign up for our product by clicking that button right over there!</p>
+            </div>
+           <button class ="sign-up-button">Sign up</button>
+        </div>
     </div>
 
     <div class = "footer">
-        <h3 class ="footer-logo">Copyright ©  The Odin Project 2021</h3>
+        <p class ="footer-logo">Copyright ©  The Odin Project 2021</p>
     </div>
 </body>
 </html>
